@@ -47,7 +47,7 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "Welcome to Flux on K3S!!!"
+          value: "Welcome to Flux on K3S!!! :)"
         livenessProbe:
           httpGet:
             path: /healthz
